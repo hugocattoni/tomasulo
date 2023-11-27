@@ -1,0 +1,2011 @@
+================================================================================
+Clock: 0
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+LOA 32 | true | 5 | LW | 0 | NONE | NONE | NONE | 32
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 0
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 32 | 0
+7 | NONE | 0
+8 | NONE | 0
+9 | NONE | 0
+10 | NONE | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 1
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+LOA 32 | true | 4 | LW | 0 | NONE | NONE | NONE | 32
+LOA 33 | true | 5 | LW | 0 | NONE | NONE | NONE | 44
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | 33 | 0
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 32 | 0
+7 | NONE | 0
+8 | NONE | 0
+9 | NONE | 0
+10 | NONE | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 2
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 16 | true | -1 | MUL | NONE | 0 | 33 | NONE | NONE
+LOA 32 | true | 3 | LW | 0 | NONE | NONE | NONE | 32
+LOA 33 | true | 4 | LW | 0 | NONE | NONE | NONE | 44
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | 33 | 0
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 32 | 0
+7 | NONE | 0
+8 | NONE | 0
+9 | NONE | 0
+10 | NONE | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 3
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+ADD 0 | true | 5 | ADD | 0 | 0 | NONE | NONE | NONE
+MUL 16 | true | -1 | MUL | NONE | 0 | 33 | NONE | NONE
+LOA 32 | true | 2 | LW | 0 | NONE | NONE | NONE | 32
+LOA 33 | true | 3 | LW | 0 | NONE | NONE | NONE | 44
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | 33 | 0
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 32 | 0
+7 | NONE | 0
+8 | NONE | 0
+9 | NONE | 0
+10 | 0 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 4
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+ADD 0 | true | 4 | ADD | 0 | 0 | NONE | NONE | NONE
+ADD 1 | true | -1 | SUB | NONE | NONE | 33 | 32 | NONE
+MUL 16 | true | -1 | MUL | NONE | 0 | 33 | NONE | NONE
+LOA 32 | true | 1 | LW | 0 | NONE | NONE | NONE | 32
+LOA 33 | true | 2 | LW | 0 | NONE | NONE | NONE | 44
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | 33 | 0
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 32 | 0
+7 | NONE | 0
+8 | 1 | 0
+9 | NONE | 0
+10 | 0 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 5
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+ADD 0 | true | 3 | ADD | 0 | 0 | NONE | NONE | NONE
+ADD 1 | true | -1 | SUB | NONE | NONE | 33 | 32 | NONE
+MUL 16 | true | -1 | MUL | NONE | 0 | 33 | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | NONE | 16 | 32 | NONE
+LOA 32 | true | 0 | LW | 0 | NONE | NONE | NONE | 32
+LOA 33 | true | 1 | LW | 0 | NONE | NONE | NONE | 44
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | 33 | 0
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 32 | 0
+7 | NONE | 0
+8 | 1 | 0
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 6
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+ADD 0 | true | 2 | ADD | 0 | 0 | NONE | NONE | NONE
+ADD 1 | true | -1 | SUB | NONE | 32 | 33 | NONE | NONE
+ADD 2 | true | -1 | ADD | NONE | NONE | 1 | 33 | NONE
+MUL 16 | true | -1 | MUL | NONE | 0 | 33 | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | 32 | 16 | NONE | NONE
+LOA 33 | true | 0 | LW | 0 | NONE | NONE | NONE | 44
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | 33 | 0
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 2 | 0
+7 | NONE | 0
+8 | 1 | 0
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 7
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+ADD 0 | true | 1 | ADD | 0 | 0 | NONE | NONE | NONE
+ADD 1 | true | 5 | SUB | 44 | 32 | NONE | NONE | NONE
+ADD 2 | true | -1 | ADD | NONE | 44 | 1 | NONE | NONE
+MUL 16 | true | 15 | MUL | 44 | 0 | NONE | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | 32 | 16 | NONE | NONE
+LOA 32 | true | 5 | SW | 44 | NONE | NONE | NONE | 32
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 2 | 0
+7 | NONE | 0
+8 | 1 | 0
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 8
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+ADD 0 | true | 0 | ADD | 0 | 0 | NONE | NONE | NONE
+ADD 1 | true | 4 | SUB | 44 | 32 | NONE | NONE | NONE
+ADD 2 | true | -1 | ADD | NONE | 44 | 1 | NONE | NONE
+MUL 16 | true | 14 | MUL | 44 | 0 | NONE | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | 32 | 16 | NONE | NONE
+LOA 32 | true | 4 | SW | 44 | NONE | NONE | NONE | 32
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 2 | 0
+7 | NONE | 0
+8 | 1 | 0
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 9
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+ADD 1 | true | 3 | SUB | 44 | 32 | NONE | NONE | NONE
+ADD 2 | true | -1 | ADD | NONE | 44 | 1 | NONE | NONE
+MUL 16 | true | 13 | MUL | 44 | 0 | NONE | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | 32 | 16 | NONE | NONE
+LOA 32 | true | 3 | SW | 44 | NONE | NONE | NONE | 32
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 2 | 0
+7 | NONE | 0
+8 | 1 | 0
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 10
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+ADD 1 | true | 2 | SUB | 44 | 32 | NONE | NONE | NONE
+ADD 2 | true | -1 | ADD | NONE | 44 | 1 | NONE | NONE
+MUL 16 | true | 12 | MUL | 44 | 0 | NONE | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | 32 | 16 | NONE | NONE
+LOA 32 | true | 2 | SW | 44 | NONE | NONE | NONE | 32
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 2 | 0
+7 | NONE | 0
+8 | 1 | 0
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 11
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+ADD 1 | true | 1 | SUB | 44 | 32 | NONE | NONE | NONE
+ADD 2 | true | -1 | ADD | NONE | 44 | 1 | NONE | NONE
+MUL 16 | true | 11 | MUL | 44 | 0 | NONE | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | 32 | 16 | NONE | NONE
+LOA 32 | true | 1 | SW | 44 | NONE | NONE | NONE | 32
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 2 | 0
+7 | NONE | 0
+8 | 1 | 0
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 12
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+ADD 1 | true | 0 | SUB | 44 | 32 | NONE | NONE | NONE
+ADD 2 | true | -1 | ADD | NONE | 44 | 1 | NONE | NONE
+MUL 16 | true | 10 | MUL | 44 | 0 | NONE | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | 32 | 16 | NONE | NONE
+LOA 32 | true | 0 | SW | 44 | NONE | NONE | NONE | 32
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 2 | 0
+7 | NONE | 0
+8 | 1 | 0
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 13
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+ADD 2 | true | 5 | ADD | 12 | 44 | NONE | NONE | NONE
+MUL 16 | true | 9 | MUL | 44 | 0 | NONE | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | 32 | 16 | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 2 | 0
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 14
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+ADD 2 | true | 4 | ADD | 12 | 44 | NONE | NONE | NONE
+MUL 16 | true | 8 | MUL | 44 | 0 | NONE | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | 32 | 16 | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 2 | 0
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 15
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+ADD 2 | true | 3 | ADD | 12 | 44 | NONE | NONE | NONE
+MUL 16 | true | 7 | MUL | 44 | 0 | NONE | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | 32 | 16 | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 2 | 0
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 16
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+ADD 2 | true | 2 | ADD | 12 | 44 | NONE | NONE | NONE
+MUL 16 | true | 6 | MUL | 44 | 0 | NONE | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | 32 | 16 | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 2 | 0
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 17
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+ADD 2 | true | 1 | ADD | 12 | 44 | NONE | NONE | NONE
+MUL 16 | true | 5 | MUL | 44 | 0 | NONE | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | 32 | 16 | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 2 | 0
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 18
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+ADD 2 | true | 0 | ADD | 12 | 44 | NONE | NONE | NONE
+MUL 16 | true | 4 | MUL | 44 | 0 | NONE | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | 32 | 16 | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | 2 | 0
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 19
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 16 | true | 3 | MUL | 44 | 0 | NONE | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | 32 | 16 | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 20
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 16 | true | 2 | MUL | 44 | 0 | NONE | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | 32 | 16 | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 21
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 16 | true | 1 | MUL | 44 | 0 | NONE | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | 32 | 16 | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 22
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 16 | true | 0 | MUL | 44 | 0 | NONE | NONE | NONE
+MUL 17 | true | -1 | DIV | NONE | 32 | 16 | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | 16 | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 23
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 25 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 24
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 24 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 25
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 23 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 26
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 22 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 27
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 21 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 28
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 20 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 29
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 19 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 30
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 18 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 31
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 17 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 32
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 16 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 33
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 15 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 34
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 14 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 35
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 13 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 36
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 12 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 37
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 11 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 38
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 10 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 39
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 9 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 40
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 8 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 41
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 7 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 42
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 6 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 43
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 5 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 44
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 4 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 45
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 3 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 46
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 2 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 47
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 1 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 48
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+MUL 17 | true | 0 | DIV | 0 | 32 | NONE | NONE | NONE
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | 17 | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
+================================================================================
+Clock: 49
+ Name  | BUSY  | Clock |   OP   |   Vj  |   Vk  |   Qj  |   Qk  |   A   |
+
+Registradores:
+Reg | Qi | Value
+0 | NONE | 0
+1 | NONE | 0
+2 | NONE | 44
+3 | NONE | 0
+4 | NONE | 0
+5 | NONE | 0
+6 | NONE | 56
+7 | NONE | 0
+8 | NONE | 12
+9 | NONE | 0
+10 | NONE | 0
+11 | NONE | 0
+12 | NONE | 0
+13 | NONE | 0
+14 | NONE | 0
+15 | NONE | 0
+16 | NONE | 0
+17 | NONE | 0
+18 | NONE | 0
+19 | NONE | 0
+20 | NONE | 0
+21 | NONE | 0
+22 | NONE | 0
+23 | NONE | 0
+24 | NONE | 0
+25 | NONE | 0
+26 | NONE | 0
+27 | NONE | 0
+28 | NONE | 0
+29 | NONE | 0
+30 | NONE | 0
+31 | NONE | 0
