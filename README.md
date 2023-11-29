@@ -80,3 +80,14 @@ O método _executeInstructions_ faz o controle do progresso das instruções em 
 ### Método _writeOutput_
 
 O método _writeOutput_ gera a saída em um arquivo .txt, escrevendo o estado atual das estações de reserva e registradores.
+
+## Renomeação
+
+No código, a renomeação permite que as instruções sejam executadas de forma especulativa e fora de ordem, desde que suas dependências estejam resolvidas.
+A partir da entrada:
+
+- LW F6, 32(R2)
+- LW F2, 44(R3)
+- ADD F2, F6, F6
+
+As instruções de carregamento, que originalmente estavam antes da instrução de adição no código, são concluídas após a execução da instrução de adição.
